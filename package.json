@@ -1,8 +1,9 @@
 {
-  "name": "parcel-starter-tw",
+  "name": "ydstarters/parcel-starter-tw",
   "version": "1.0.0",
-  "description": "",
+  "description": "tailwind starter using parcel, tailwind and twin.macro",
   "main": "index.js",
+  "bin": "./bin/cli.js",
   "scripts": {
     "clean": "shx rm -rf dist .parcel-cache",
     "build": "yarn clean && parcel build public/index.html",
@@ -17,7 +18,7 @@
     "url": "git+https://github.com/yondav/parcel-starter-tw.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yoni David",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yondav/parcel-starter-tw/issues"
