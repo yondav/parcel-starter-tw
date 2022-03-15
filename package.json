@@ -1,6 +1,6 @@
 {
   "name": "@ydstarters/parcel-starter-tw",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "tailwind starter using parcel, tailwind and twin.macro",
   "main": "index.js",
   "bin": "./bin/cli.js",
