@@ -26,7 +26,7 @@ console.log(`Installing dependencies for ${repoName}`);
 
 const installedDeps = runCommand(installDepsCommand);
 
-if (!installDeps) process.exit();
+if (!installedDeps) process.exit();
 
 console.log('Starter installed!');
 console.log(`cd ${repoName} && yarn start`);
